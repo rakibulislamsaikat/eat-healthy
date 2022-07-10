@@ -1,30 +1,40 @@
 body {
     font-family: 'Poppins', sans-serif;
-    font-family: 'Rubik', sans-serif;}
-
+    font-family: 'Rubik', sans-serif;
+}
 h1 {
     font-size: 60px;
+    line-height: 30px;
 }
-
+.head-span{
+    color: orange;
+}
 .flex-sec {
     display: flex;
-    padding: 5%;
 
 }
-
 .skip-diet {
     width: 40%;
-
+    padding: 5%;
 }
-
 .skip-diet img {
     width: 100%;
 }
-
 .order-food {
-    background-image: linear-gradient(orange tomato);
-    color: white;
-    border: 2px solid white;
-    border-radius: 5px;
-
+    background-image: linear-gradient(orange, tomato);
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 50px; 
+    border: 3px solid orange;      
+    border-radius: 30px;
+    width: 150px;
+    text-align: center;
+}
+.new-image{
+    width: 30%;
+}
+.new-back{
+    background-color: bisque;
 }
