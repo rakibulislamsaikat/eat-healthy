@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.flex-sec {
+    display: flex;
+    padding: 5%;
+
+}
+
+.skip-diet {
+    width: 40%;
+
+}
+
+.skip-diet img {
+    width: 100%;
+}
+
+.order-food {
+    background-image: linear-gradient(orange tomato);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
