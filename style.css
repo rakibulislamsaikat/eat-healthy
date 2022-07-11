@@ -3,7 +3,7 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 h1 {
-    font-size: 60px;
+    font-size: 70px;
     line-height: 30px;
 }
 .head-span{
@@ -11,14 +11,20 @@ h1 {
 }
 .flex-sec {
     display: flex;
+    padding: 5%;
+
 
 }
 .skip-diet {
-    width: 40%;
-    padding: 5%;
+    width: 50%;
 }
 .skip-diet img {
-    width: 100%;
+    width: 90%;
+}
+.position{
+    position: absolute;
+    top: 0%;
+    right: 5%;
 }
 .order-food {
     background-image: linear-gradient(orange, tomato);
@@ -32,9 +38,20 @@ h1 {
     width: 150px;
     text-align: center;
 }
-.new-image{
-    width: 30%;
+.about-me{
+    padding: 5%;
 }
-.new-back{
-    background-color: bisque;
+.my-img img{
+    width: 50%;
+}
+#first-id{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.recp-div img{
+    width: 50%;  
+}
+.main-div{
+    width: 50%;
+    display: flex;
 }
