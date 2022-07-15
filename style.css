@@ -1,57 +1,40 @@
-body {
+body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
-h1 {
+h1{
     font-size: 70px;
-    line-height: 30px;
+    font-weight: bold;
+    line-height: 60px;
+
+
 }
-.head-span{
+.span{
     color: orange;
 }
-.flex-sec {
+
+
+.first-sec{
     display: flex;
     padding: 5%;
-
-
 }
-.skip-diet {
+.first-sec-divs{
     width: 50%;
+    /* position: absolute;
+    right: 50px;
+    top: 40px; */
 }
-.skip-diet img {
-    width: 90%;
-}
-.position{
+.first-sec-divs img{
+    width: 100%;
     position: absolute;
-    top: 0%;
-    right: 5%;
+    right: 50px;
+    top: 40px;
 }
-.order-food {
+.order{
     background-image: linear-gradient(orange, tomato);
-    color: antiquewhite;
     text-decoration: none;
-    padding: 15px;
-    display: inline-block;
-    margin-top: 50px; 
-    border: 3px solid orange;      
-    border-radius: 30px;
-    width: 150px;
-    text-align: center;
-}
-.about-me{
-    padding: 5%;
-}
-.my-img img{
-    width: 50%;
-}
-#first-id{
-    background-image: url(images/shapes/7.png);
-    background-repeat: no-repeat;
-}
-.recp-div img{
-    width: 50%;  
-}
-.main-div{
-    width: 50%;
-    display: flex;
+    border-radius: 10px;
+    display: block;
+    
+    
 }
