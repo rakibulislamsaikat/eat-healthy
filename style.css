@@ -17,7 +17,7 @@ h1{
 .first-sec{
     display: flex;
     padding: 5%;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 .first-sec-divs{
     width: 50%;
@@ -53,7 +53,7 @@ h1{
     background-image:url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     padding: 5% 3% 0% 7%;   
 }
 .second-div img{
@@ -68,20 +68,21 @@ h1{
 }
 .main-div{
     display: flex;
-    padding:0% 5% 0% 5%;
+    padding: 5%;
 }
 .recp-div{
-    width: 40%;  
+    width: 50%;  
     text-align: left;
-    padding: 5%;
     background-color: white;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px 0px grey;
-    margin: 25px;
+    border-radius: 25px;
+    margin: 15px;
     
 }
 .recp-div img{
    width: 100%; 
+}
+.inner-recp-div{
+    padding: 30px;    
 }
 
 
