@@ -3,6 +3,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Rubik', sans-serif;
     padding: 5px;
+    background-color: whitesmoke;
 }
 h1{
     font-size: 70px;
@@ -58,7 +59,29 @@ h1{
 .second-div img{
     width: 50%;
 }
+
+
+/*third div style*/    
+
 .trd-sec-div{
     text-align: center;
 }
+.main-div{
+    display: flex;
+    padding:0% 5% 0% 5%;
+}
+.recp-div{
+    width: 40%;  
+    text-align: left;
+    padding: 5%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px grey;
+    margin: 25px;
+    
+}
+.recp-div img{
+   width: 100%; 
+}
+
 
