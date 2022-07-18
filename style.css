@@ -2,7 +2,6 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Rubik', sans-serif;
-    padding: 5px;
     background-color: whitesmoke;
 }
 h1{
@@ -68,7 +67,7 @@ h1{
 }
 .main-div{
     display: flex;
-    padding: 5%;
+    padding: 5% 5% 0% 5%;
 }
 .recp-div{
     width: 50%;  
@@ -76,6 +75,7 @@ h1{
     background-color: white;
     border-radius: 25px;
     margin: 15px;
+    box-shadow: 1px 1px 10px 1px lightgrey;
     
 }
 .recp-div img{
@@ -84,5 +84,29 @@ h1{
 .inner-recp-div{
     padding: 30px;    
 }
+.branding-sec{
+    padding: 5%;
+}
+.head-div{
+    display: flex; 
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px lightgrey;
+    border-radius: 25px;
+}
+.sub-div{
+    width: 30%;
+    text-align: center;
+}
+/*   footer   */
+.mini-head{
+    font-size: 50px;
+    font-weight: 700px;
+}
 
-
+.footer-div{
+    background-color: indigo;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    
+}
